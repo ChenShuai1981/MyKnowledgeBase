@@ -1,0 +1,18 @@
+mkdir -p .opencode/skills/medium-articles
+
+请帮我创建 .opencode/skills/medium-articles/SKILL.md 文件。
+
+格式要求：
+- 头部用 YAML frontmatter（name, description, allowed-tools）
+- 正文用 Markdown，包含：使用场景、执行步骤（7步）、注意事项、输出格式
+
+内容要求：
+- name: medium-articles
+- description: 当需要采集 medium 每日技术文章时使用此技能
+- allowed-tools: Read, Grep, Glob, WebFetch
+- 7个执行步骤：搜索热门技术文章 → 提取信息 → 过滤(纳入AI/LLM/Agent，排除Awesome列表) → 去重 → 撰写中文摘要(公式：论文名+做什么+为什么值得关注) → 排序取Top15 → 输出JSON到knowledge/raw/medium-articles-YYYY-MM-DD.json
+- JSON结构包含：source, skill, collected_at, items数组(name, url, summary, stars, category, tags)
+
+
+@collector 请调用 medium-articles 技能，按照 .opencode/skills/medium-articles/SKILL.md 的 7 个步骤，采集今天 AI Agent/Harness/Hermes Agent/Claude Code/OpenCode/OpenClaw/vibe coding 领域的 medium 热门技术文章。
+搜索完成后把 JSON 数据保存到 knowledge/raw/medium-articles-今天日期.json

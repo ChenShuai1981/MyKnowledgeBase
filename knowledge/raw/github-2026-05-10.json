@@ -1,0 +1,78 @@
+{
+  "source": "github",
+  "collected_at": "2026-05-10T00:00:00",
+  "items": [
+    {
+      "name": "lutzroeder/netron",
+      "url": "https://github.com/lutzroeder/netron",
+      "description": "Visualizer for neural network, deep learning and machine learning models",
+      "stars": 32855,
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "coreml",
+        "deep-learning",
+        "deeplearning",
+        "keras",
+        "machine-learning",
+        "machinelearning",
+        "ml",
+        "neural-network",
+        "numpy",
+        "onnx",
+        "pytorch",
+        "safetensors",
+        "tensorflow",
+        "tensorflow-lite",
+        "visualizer"
+      ]
+    },
+    {
+      "name": "onnx/onnx",
+      "url": "https://github.com/onnx/onnx",
+      "description": "Open standard for machine learning interoperability",
+      "stars": 20795,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "deep-learning",
+        "deep-neural-networks",
+        "dnn",
+        "keras",
+        "machine-learning",
+        "ml",
+        "neural-network",
+        "onnx",
+        "pytorch",
+        "scikit-learn",
+        "tensorflow"
+      ]
+    },
+    {
+      "name": "stas00/ml-engineering",
+      "url": "https://github.com/stas00/ml-engineering",
+      "description": "Machine Learning Engineering Open Book",
+      "stars": 17891,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "debugging",
+        "gpus",
+        "inference",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "machine-learning-engineering",
+        "mlops",
+        "network",
+        "pytorch",
+        "scalability",
+        "slurm",
+        "storage",
+        "training",
+        "transformers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "source": "medium-articles",
+  "skill": "medium-articles",
+  "collected_at": "2026-05-10T09:45:00",
+  "items": [
+    {
+      "name": "The Rise of AI Guardrails: Claude, Harness, and the New Safety Stack",
+      "url": "https://blog.gopenai.com/the-rise-of-ai-guardrails-claude-harness-and-the-new-safety-stack-3227ef530be6",
+      "summary": "文章分析了以Claude Safety Stack和Harness AI Guardrails为代表的新一代AI安全基础设施。做什么：介绍如何通过结构化安全层（内容过滤、行为约束、审计日志）构建AI Agent的可信执行环境。为什么值得关注：Harness将CI/CD领域的策略即代码理念引入AI安全，提出跨模型的统一Guardrails框架，解决了多Agent协作中的安全碎片化问题。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["ai-safety", "guardrails", "harness", "claude", "agent-security"]
+    },
+    {
+      "name": "Open Source Claude Code: Load Open Source Models to Claude Code",
+      "url": "https://medium.com/@sharathhebbar24/open-source-claude-code-load-open-source-models-to-claude-code-182bfb860b52",
+      "summary": "文章探讨如何用开源模型替代Claude Code的默认模型以降低成本。做什么：通过LiteLLM代理将DeepSeek、Qwen等开源模型接入Claude Code的Agent工作流。为什么值得关注：为开发者提供了一条绕过Claude API高昂费用的路径，同时保留了Claude Code的工具调用和Agent编排能力，单日Token消耗可降低60-90%。",
+      "stars": 0,
+      "category": "工具",
+      "tags": ["claude-code", "open-source", "litellm", "deepseek", "cost-optimization"]
+    },
+    {
+      "name": "Skills Soup: Why Your 30-Skill Claude Code Setup Is Eating Itself",
+      "url": "https://medium.com/@anup.karanjkar08/skills-soup-why-your-30-skill-claude-code-setup-is-eating-itself-798a9d108e2a",
+      "summary": "文章指出Claude Code中堆叠过多Skills反而导致上下文膨胀和冲突。做什么：提出分层Skill架构——按优先级将Skills分为Core/Contextual/On-Demand三层，仅按需注入上下文。为什么值得关注：解决了当前Agent Skill生态的核心矛盾——Skills越多上下文越大，而上下文越大模型推理质量越差，提出了一种类似操作系统按需分页的解决方案。",
+      "stars": 0,
+      "category": "工程",
+      "tags": ["claude-code", "skills", "context-engineering", "agent-architecture", "token-optimization"]
+    },
+    {
+      "name": "10 GitHub Repos That Cut Claude Code Token Usage by 60–90%",
+      "url": "https://medium.com/coding-nexus/10-github-repos-that-cut-claude-code-token-usage-by-60-90-b0105cec4081",
+      "summary": "文章整理了10个能显著降低Claude Code Token消耗的开源工具和技巧。做什么：涵盖上下文压缩、智能缓存、Prompt去重、增量diff等实用方案。为什么值得关注：Claude Code的成本是个人开发者的最大痛点，本文给出了可直接落地的工程实践集合，而非理论建议。",
+      "stars": 0,
+      "category": "工具",
+      "tags": ["claude-code", "token-optimization", "cost-reduction", "github", "developer-tools"]
+    },
+    {
+      "name": "I Tried 100 Claude Skills. These Are The Best.",
+      "url": "https://medium.com/@surajkhaitan16/i-tried-100-claude-skills-these-are-the-best-639e419b0325",
+      "summary": "作者实测了Anthropic新推出的Agent Skills生态中的100个Skills。做什么：从PDF处理到Slack GIF生成，系统评估了各Skill的实用性、稳定性和Token效率。为什么值得关注：为社区提供了首个大规模的Claude Code Skills横向评测，帮助开发者避免盲目试用大量Skills带来的时间浪费和Token消耗。",
+      "stars": 0,
+      "category": "工具",
+      "tags": ["claude-code", "skills", "anthropic", "agent", "evaluation"]
+    },
+    {
+      "name": "My AI Agent DDOSed Its Own LLM — Here's How I Fixed It",
+      "url": "https://medium.com/practical-llm-systems/my-ai-agent-ddosed-its-own-llm-heres-how-i-fixed-it-78196c6663e4",
+      "summary": "作者描述了AI Agent在并发调度任务时意外对自身LLM服务发起DDoS攻击的真实事故。做什么：通过引入优先级队列、Token预算限制和自适应退避机制，将Agent的并发请求从无限制压到可控范围。为什么值得关注：这是一个Agent工程中容易被忽视但非常真实的运维问题，文章提供了从故障定位到最终修复的完整排查过程。",
+      "stars": 0,
+      "category": "工程",
+      "tags": ["agent", "llm", "rate-limiting", "concurrency", "reliability"]
+    },
+    {
+      "name": "The Super-Agent Illusion: Orchestrating a Multi-Agent Swarm",
+      "url": "https://medium.com/@krishik_123pm/the-super-agent-illusion-orchestrating-a-multi-agent-swarm-d4328110bcbe",
+      "summary": "文章批判了当前AI产品中「超级Agent」的设计幻觉，即试图用单个全能Agent解决所有问题。做什么：提出Multi-Agent Swarm编排模式，将复杂任务分解给专业化的小Agent协同完成。为什么值得关注：从产品设计和UX角度分析了Agent系统的正确分工方式，反对「一个Agent统治一切」的反模式。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["multi-agent", "swarm", "orchestration", "product-design", "ux"]
+    },
+    {
+      "name": "The Essence of MCP: Not Calling Models, but Constraining Agent Behavior Boundaries",
+      "url": "https://medium.com/@zhangshuang_76160/the-essence-of-mcp-not-calling-models-but-constraining-agent-behavior-boundaries-15e70e519be3",
+      "summary": "文章重新解释了Model Context Protocol（MCP）的本质。做什么：指出MCP的核心价值不是调用模型，而是通过协议层约束Agent的行为边界，保证Agent在可控范围内执行任务。为什么值得关注：纠正了社区对MCP的普遍误解（即MCP只是工具调用协议），强调其作为Agent安全边界的设计初衷。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["mcp", "agent", "protocol", "safety", "behavior-constraint"]
+    },
+    {
+      "name": "The End of Lazy AI: Introducing Universal Guardrails for Multi-Agent Coding",
+      "url": "https://medium.com/@Isaacnewton1/the-end-of-lazy-ai-introducing-universal-guardrails-for-multi-agent-coding-b41e9f88ec3e",
+      "summary": "作者构建了一个跨平台的Guardrails协议，强制AI Agent生成更干净、更规范的代码。做什么：定义了一套通用规则语言，在Agent编码过程中实时检查代码质量、安全性和风格一致性。为什么值得关注：解决了vibe coding中AI Agent倾向走捷径的痛点，将代码审查自动化前置到代码生成阶段。",
+      "stars": 0,
+      "category": "工程",
+      "tags": ["guardrails", "multi-agent", "code-quality", "vibe-coding", "ai-safety"]
+    },
+    {
+      "name": "When Your Automation Suite Doesn't Cover It: AI-Driven Ad-Hoc Testing with Playwright CLI Skill",
+      "url": "https://thirddriver.medium.com/when-your-automation-suite-doesnt-cover-it-ai-driven-ad-hoc-testing-with-playwright-cli-skill-f88bbe283fc4",
+      "summary": "文章展示了如何用Claude Code + Playwright CLI Skill实现AI驱动的临时测试。做什么：当传统自动化测试框架无法覆盖边缘场景时，用自然语言描述测试意图，让Agent自动生成并执行Playwright测试脚本。为什么值得关注：将AI Agent从代码生成工具延伸到了软件测试领域，提供了一种更灵活的QA工作流。",
+      "stars": 0,
+      "category": "工具",
+      "tags": ["claude-code", "playwright", "testing", "llm", "github-copilot"]
+    },
+    {
+      "name": "Vibe Coding Is Fun. Until You See the Security Bill.",
+      "url": "https://medium.com/write-a-catalyst/vibe-coding-is-fun-until-you-see-the-security-bill-0e1d848e3ec0",
+      "summary": "文章揭示了vibe coding（AI辅助编程）中容易被忽视的安全隐患。做什么：分析了AI生成代码中常见的SQL注入、XSS漏洞和密钥泄露模式，提出了安全审查清单。为什么值得关注：vibe coding因其便捷性被广泛使用，但AI生成的代码往往缺少安全考量，本文提供了开发者可以直接使用的安全检查流程。",
+      "stars": 0,
+      "category": "工程",
+      "tags": ["vibe-coding", "security", "ai-coding", "technical-debt", "code-review"]
+    },
+    {
+      "name": "Understanding MCP (Model Context Protocol)",
+      "url": "https://medium.com/@gitesky14/understanding-mcp-model-context-protocol-1f2d71e48a63",
+      "summary": "一篇面向初学者的MCP全面入门指南。做什么：从零解释MCP的架构、Server/Client模型、工具注册机制以及与Claude Code的集成方式。为什么值得关注：MCP已成为AI Agent生态的核心协议，本文以清晰的图示和代码示例帮助开发者快速上手构建MCP Server。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["mcp", "model-context-protocol", "claude-code", "llm", "beginner"]
+    },
+    {
+      "name": "AI Context Engineering: The Practical Guide Developers Need After Prompt Engineering",
+      "url": "https://medium.com/@arvisionlab/ai-context-engineering-the-practical-guide-developers-need-after-prompt-engineering-317b0f458a10",
+      "summary": "文章提出Prompt Engineering之后的下一个重要技能是Context Engineering。做什么：介绍了如何系统性地设计、管理和优化AI Agent的上下文窗口，包括上下文压缩、分层组织和动态注入策略。为什么值得关注：随着Agent系统复杂度增加，上下文管理已成为决定Agent性能的关键因素，本文提出了系统化的方法论而非零散技巧。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["context-engineering", "prompt-engineering", "agent", "ai-development", "rag"]
+    },
+    {
+      "name": "Building a Private RAG-Powered AI Assistant for Enterprise Software",
+      "url": "https://medium.com/@karankumar496kk/building-a-private-rag-powered-ai-assistant-for-enterprise-software-84b710dd49fe",
+      "summary": "文章记录了用纯开源工具构建企业级私有RAG AI助手的完整过程。做什么：使用本地LLM + ChromaDB + LangChain构建离线的企业文档问答系统。为什么值得关注：数据隐私是企业在采用AI时的最大顾虑，本文提供了无需将敏感数据发送到云端的实用方案，涵盖从文档解析到向量检索的全栈实现。",
+      "stars": 0,
+      "category": "工程",
+      "tags": ["rag", "enterprise", "privacy", "llm", "langchain"]
+    },
+    {
+      "name": "The End of Dev Teams and What Comes Next",
+      "url": "https://medium.com/@evan_63231/the-end-of-dev-teams-and-what-comes-next-37ce8c1e1d9b",
+      "summary": "文章探讨了Andrej Karpathy提出的'Software 3.0'概念对开发团队结构的深远影响。做什么：分析AI Agent如何从辅助编码工具演变为自主开发单元，以及传统开发团队角色（PM、QA、Dev）将如何重组。为什么值得关注：这不是末日论，而是对AI时代软件工程组织形态的冷静推演，为技术管理者提供了组织转型的思考框架。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["software-engineering", "vibe-coding", "ai-agent", "software-3.0", "dev-teams"]
+    }
+  ]
+}

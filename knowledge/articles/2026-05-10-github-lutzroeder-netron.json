@@ -1,0 +1,18 @@
+{
+  "id": "github-20260510-001",
+  "title": "lutzroeder/netron",
+  "source_url": "https://github.com/lutzroeder/netron",
+  "summary": "Netron 是一个用于神经网络、深度学习和机器学习模型的可视化工具，支持 ONNX、TensorFlow、PyTorch、Keras、CoreML 等多种主流模型格式。它允许用户以图形化方式查看模型的结构、层、参数和连接，无需运行模型即可进行调试和分析。该项目拥有超过 3.2 万星标，是 AI 开发者广泛使用的实用工具，尤其适合模型转换、调试和教学场景。",
+  "tags": [
+    "neural-network-visualizer",
+    "deep-learning",
+    "model-inspection",
+    "onnx",
+    "pytorch"
+  ],
+  "status": "draft",
+  "source": "github",
+  "score": 8,
+  "created_at": "2026-05-10T00:00:00Z",
+  "filename": "2026-05-10-github-lutzroeder-netron.json"
+}
