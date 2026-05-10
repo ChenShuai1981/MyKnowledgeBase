@@ -1,0 +1,17 @@
+{
+  "id": "89012345-6789-0123-ijkl-678901234567",
+  "title": "Firecrawl",
+  "url": "https://github.com/mendableai/firecrawl",
+  "source": "github-trending",
+  "popularity": 114361,
+  "summary": "AI 网页抓取和搜索 API，将整个网站转换为 LLM 可用的 Markdown 或结构化数据。解决了 AI 应用的数据获取难题，是 RAG 系统的重要数据来源。",
+  "highlights": [
+    "全网站转换：整站爬取并转换为结构化数据",
+    "Markdown 输出：直接输出 LLM 友好格式",
+    "RAG 支持：为检索增强生成提供数据管道"
+  ],
+  "score": 7,
+  "tags": ["Web Scraping", "LLM Data", "API", "RAG"],
+  "created_at": "2026-05-07T00:00:00Z",
+  "filename": "2026-05-07-github-trending-firecrawl.json"
+}

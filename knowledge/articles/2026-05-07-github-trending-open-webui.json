@@ -1,0 +1,17 @@
+{
+  "id": "78901234-5678-9012-hijk-567890123456",
+  "title": "Open WebUI",
+  "url": "https://github.com/open-webui/open-webui",
+  "source": "github-trending",
+  "popularity": 135259,
+  "summary": "用户友好的 AI 界面，支持 Ollama 和 OpenAI API，提供完全离线的 AI 对话体验。为本地部署的 LLM 提供了优雅的 Web UI，适合私有化部署场景。",
+  "highlights": [
+    "完全离线：数据本地处理，保护隐私",
+    "多后端支持：兼容 Ollama 和 OpenAI API",
+    "用户友好：界面简洁美观，易于使用"
+  ],
+  "score": 7,
+  "tags": ["UI", "Ollama", "离线AI", "Web界面"],
+  "created_at": "2026-05-07T00:00:00Z",
+  "filename": "2026-05-07-github-trending-open-webui.json"
+}

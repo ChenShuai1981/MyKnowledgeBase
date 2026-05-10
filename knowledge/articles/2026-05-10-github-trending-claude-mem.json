@@ -1,0 +1,12 @@
+{
+  "id": "a1b2c3d4-5678-90ab-cdef-ffffffffffff",
+  "title": "Claude-mem",
+  "source_url": "https://github.com/thedotmack/claude-mem",
+  "summary": "Claude Code持久记忆插件，自动捕获会话压缩AI摘要，跨会话注入相关上下文。5个生命周期钩子自动记忆捕获，3层搜索工作流节省~10x tokens。SQLite存储+Chroma向量数据库，支持多平台。",
+  "tags": ["memory", "rag", "claude", "long-term-memory", "ai-agents"],
+  "status": "pending",
+  "source": "github-trending",
+  "score": 8,
+  "created_at": "2026-05-10T00:00:00Z",
+  "filename": "2026-05-10-github-trending-claude-mem.json"
+}

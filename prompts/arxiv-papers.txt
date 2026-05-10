@@ -1,0 +1,18 @@
+mkdir -p .opencode/skills/arxiv-papers
+
+请帮我创建 .opencode/skills/arxiv-papers/SKILL.md 文件。
+
+格式要求：
+- 头部用 YAML frontmatter（name, description, allowed-tools）
+- 正文用 Markdown，包含：使用场景、执行步骤（7步）、注意事项、输出格式
+
+内容要求：
+- name: arxiv-papers
+- description: 当需要采集 arxiv 热门论文时使用此技能
+- allowed-tools: Read, Grep, Glob, WebFetch
+- 7个执行步骤：搜索热门论文 → 提取信息 → 过滤(纳入AI/LLM/Agent，排除Awesome列表) → 去重 → 撰写中文摘要(公式：论文名+做什么+为什么值得关注) → 排序取Top15 → 输出JSON到knowledge/raw/arxiv-papers-YYYY-MM-DD.json
+- JSON结构包含：source, skill, collected_at, items数组(name, url, summary, stars, category, keywords)
+
+
+@collector 请调用 arxiv-papers 技能，按照 .opencode/skills/arxiv-papers/SKILL.md 的 7 个步骤，采集本周 AI 领域的 Arxiv 热门论文。
+搜索完成后把 JSON 数据保存到 knowledge/raw/arxiv-papers-今天日期.json

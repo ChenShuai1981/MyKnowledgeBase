@@ -1,0 +1,12 @@
+{
+  "id": "a1b2c3d4-5678-90ab-cdef-bbbbbbbbbbbb",
+  "title": "Gstack",
+  "source_url": "https://github.com/garrytan/gstack",
+  "summary": "Garry Tan的Claude Code配置，包含23个专家角色（CEO/Designer/QA等）和8个Power工具。YC CEO实测效率提升810倍，1人=20人团队生产力。支持10+AI编码工具，实时浏览器模式，MCP支持，内置安全护栏。",
+  "tags": ["productivity", "ai-team", "claude-code", "workflow", "dev-tools"],
+  "status": "pending",
+  "source": "github-trending",
+  "score": 8,
+  "created_at": "2026-05-10T00:00:00Z",
+  "filename": "2026-05-10-github-trending-gstack.json"
+}

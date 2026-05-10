@@ -1,0 +1,12 @@
+{
+  "id": "a1b2c3d4-5678-90ab-cdef-999999999999",
+  "title": "agency-agents",
+  "source_url": "https://github.com/msitarzewski/agency-agents",
+  "summary": "完整AI代理团队框架，包含Frontend/Backend/AI Engineer等专业化角色。涵盖Engineering/Marketing/Sales/Design等12个领域，Engineering领域16个角色，Marketing有20+角色。支持Claude Code/GitHub Copilot等10+工具。",
+  "tags": ["ai-agents", "team", "specialized", "workflow", "productivity"],
+  "status": "pending",
+  "source": "github-trending",
+  "score": 7,
+  "created_at": "2026-05-10T00:00:00Z",
+  "filename": "2026-05-10-github-trending-agency-agents.json"
+}

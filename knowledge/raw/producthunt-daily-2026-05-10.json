@@ -1,0 +1,127 @@
+{
+  "source": "producthunt-daily",
+  "skill": "producthunt-daily",
+  "collected_at": "2026-05-10T00:00:00",
+  "items": [
+    {
+      "name": "My Computer by Manus AI",
+      "url": "https://www.producthunt.com/posts/my-computer-by-manus-ai",
+      "summary": "产品名：Manus AI桌面助手。做什么：通过桌面应用自动化文件、应用和工作流。为什么值得关注：首个实现全本地运行的AI代理，可直接操作系统界面完成复杂任务，突破传统AI只能回答问题的局限。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["ai-agent", "automation", "desktop-app"]
+    },
+    {
+      "name": "Lightning Rod",
+      "url": "https://www.producthunt.com/posts/lightning-rod",
+      "summary": "产品名：Lightning Rod数据标注工具。做什么：将真实世界数据快速转换为训练数据集。 为什么值得关注：解决了AI训练数据准备的效率瓶颈，支持多种数据格式一键转换，大幅降低数据标注成本。",
+      "stars": 0,
+      "category": "Machine Learning",
+      "tags": ["data-labeling", "ml", "training-data"]
+    },
+    {
+      "name": "Kira 4.0",
+      "url": "https://www.producthunt.com/posts/kira-4-0",
+      "summary": "产品名：Kira内容创作工具。做什么：将朋友们的动态一键转化为可分享的社交内容。 为什么值得关注：利用AI识别用户社交圈中的有价值内容，自动生成短视频或图文，大幅降低内容创作门槛。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["content-creation", "social-media", "video-generator"]
+    },
+    {
+      "name": "Codex Subagents",
+      "url": "https://www.producthunt.com/posts/codex-subagents",
+      "summary": "产品名：Codex子代理系统。做什么：并行运行多个自定义AI代理处理复杂任务。 为什么值得关注：支持同时调用多个专业化AI代理协同工作，每个代理可独立处理不同任务，大幅提升复杂问题处理效率。",
+      "stars": 0,
+      "category": "Developer Tools",
+      "tags": ["multi-agent", "developer-tools", "ai-agents"]
+    },
+    {
+      "name": "mTarsier",
+      "url": "https://www.producthunt.com/posts/mtarsier",
+      "summary": "产品名：mTarsier开源平台。做什么：开源的MCP服务器和客户端管理平台。 为什么值得关注：首个完全开源的Model Context Protocol实现，支持开发者自托管AI工具集成，降低企业使用AI的隐私风险。",
+      "stars": 0,
+      "category": "Open Source",
+      "tags": ["open-source", "mcp", "developer-tools"]
+    },
+    {
+      "name": "DLSS 5",
+      "url": "https://www.producthunt.com/posts/dlss-5",
+      "summary": "产品名：DLSS 5图形技术。做什么：实时计算机图形学的GPT时刻。 为什么值得关注：英伟达最新AI驱动渲染技术，用深度学习实时提升游戏画质和帧率，被视为图形技术范式转变的标志。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["graphics", "gpu", "real-time-rendering"]
+    },
+    {
+      "name": "AgentDiscuss",
+      "url": "https://www.producthunt.com/posts/agentdiscuss",
+      "summary": "产品名：AgentDiscuss AI代理社区。做什么：AI代理讨论产品的Product Hunt。 为什么值得关注：首个专为AI代理设计的社区平台，代理之间可以分享、评价和讨论AI产品，开启人机协作新模式。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["ai-agents", "community", "product-discovery"]
+    },
+    {
+      "name": "Kipps.AI",
+      "url": "https://www.producthunt.com/posts/kipps-ai",
+      "summary": "产品名：Kipps.AI营销工具。做什么：批量外呼、销售线索资格筛选和周年提醒。 为什么值得关注：将AI电话代理与CRM深度集成，可自动完成销售流程前端最耗时的人肉工作，提升销售团队效率。",
+      "stars": 0,
+      "category": "SaaS",
+      "tags": ["sales", "automation", "crm"]
+    },
+    {
+      "name": "Ocean Orchestrator",
+      "url": "https://www.producthunt.com/posts/ocean-orchestrator",
+      "summary": "产品名：Ocean Orchestrator工作流工具。做什么：IDE内一键运行AI任务的工作流编排。 为什么值得关注：首创将AI任务执行与开发环境深度集成，开发者可在VS Code中直接调度AI任务，大幅提升开发效率。",
+      "stars": 0,
+      "category": "Developer Tools",
+      "tags": ["ide", "workflow", "ai-automation"]
+    },
+    {
+      "name": "JusRecruit AI",
+      "url": "https://www.producthunt.com/posts/jusrecruit-ai",
+      "summary": "产品名：JusRecruit AI招聘系统。做什么：AI招聘系统，可自动完成电话筛选和首轮面试。 为什么值得关注：AI代理可独立完成初级招聘筛选，大幅减少HR重复劳动，支持结构化面试评估和候选人评分。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["hr", "recruitment", "automation"]
+    },
+    {
+      "name": "Agen",
+      "url": "https://www.producthunt.com/posts/agen",
+      "summary": "产品名：Agen完全自主编码代理。做什么：完全自主的AI编程代理。 为什么值得关注：首个声称可完全独立完成编程任务的AI代理，从需求理解到代码交付全程无需人工介入，代表AI编程重大突破。",
+      "stars": 0,
+      "category": "Developer Tools",
+      "tags": ["ai-coding", "developer-tools", "autonomous"]
+    },
+    {
+      "name": "Parallax",
+      "url": "https://www.producthunt.com/posts/parallax",
+      "summary": "产品名：Parallax本地AI编排器。做什么：本地优先的AI软件开发任务编排工具。 为什么值得关注：完全本地运行保护代码隐私，支持复杂软件开发流程的AI编排，适合对数据安全有高要求的企业。",
+      "stars": 0,
+      "category": "Developer Tools",
+      "tags": ["local-first", "orchestration", "dev-tools"]
+    },
+    {
+      "name": "Wispr Flow",
+      "url": "https://www.producthunt.com/posts/wispr-flow",
+      "summary": "产品名：Wispr Flow语音输入。做什么：跨平台的AI语音转文字输入工具。 为什么值得关注：支持全平台语音输入，识别速度比传统方案快4倍，号称可将说话速度提升4倍，适合内容创作者和开发者。",
+      "stars": 0,
+      "category": "Productivity",
+      "tags": ["speech-to-text", "productivity", "input-tools"]
+    },
+    {
+      "name": "AgreeGuard",
+      "url": "https://www.producthunt.com/posts/agreeguard",
+      "summary": "产品名：AgreeGuard合同审查AI。做什么：在用户点击同意前自动解读条款内容。 为什么值得关注：用AI解决在线条款阅读难题，自动提取关键条款并提示风险，保护消费者权益，降低法律风险。",
+      "stars": 0,
+      "category": "AI",
+      "tags": ["legal-tech", "contract-analysis", "consumer-protection"]
+    },
+    {
+      "name": "Bolt Foundry",
+      "url": "https://www.producthunt.com/posts/bolt-foundry",
+      "summary": "产品名：Bolt Foundry代理构建工具。做什么：构建和验证可信赖的AI代理。 为什么值得关注：提供完整的AI代理开发框架，特别强调代理行为的可验证性和安全性，适合构建企业级AI应用。",
+      "stars": 0,
+      "category": "Developer Tools",
+      "tags": ["ai-agents", "verification", "developer-tools"]
+    }
+  ]
+}

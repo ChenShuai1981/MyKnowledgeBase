@@ -1,0 +1,17 @@
+{
+  "id": "e5f67890-1234-5678-efgh-345678901234",
+  "title": "LangChain",
+  "url": "https://github.com/langchain-ai/langchain",
+  "source": "github-trending",
+  "popularity": 135654,
+  "summary": "代理工程平台，从 LLM 编排框架向智能体原生演进，支持提示词管理、链式调用和智能体构建。是构建 AI 应用的主流框架之一，提供了丰富的工具和组件。",
+  "highlights": [
+    "智能体原生：从 LLM 编排向智能体框架演进",
+    "丰富的组件：提示词管理、链式调用、智能体构建",
+    "广泛应用：已成为 AI 应用开发的事实标准"
+  ],
+  "score": 8,
+  "tags": ["LLM Framework", "Agent Development", "开源", "应用开发"],
+  "created_at": "2026-05-07T00:00:00Z",
+  "filename": "2026-05-07-github-trending-langchain.json"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "title": "LLM Agents",
+    "url": "https://github.com/the-agent-ai-company/the-agent",
+    "source": "github-trending",
+    "popularity": 366800,
+    "summary": "开源的通用 AI 代理平台，可在任何操作系统上本地运行，连接100+消息平台，具备自主任务执行能力。该平台降低了 AI 代理开发门槛，让开发者能够快速构建跨平台的智能应用。",
+    "highlights": [
+      "跨平台支持：可在任何操作系统上本地运行",
+      "多消息平台集成：连接超过100个消息平台",
+      "自主任务执行：具备独立完成复杂任务的能力"
+    ],
+    "score": 8,
+    "score_reason": "聚合主流 AI 代理能力，生态完整，对开发者有直接实用价值",
+    "tags": ["AI Agent", "开源", "跨平台", "智能助手"]
+  },
+  {
+    "title": "AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "source": "github-trending",
+    "popularity": 183949,
+    "summary": "开源 AI 自动化平台，让每个人都能轻松创建、部署和管理连续工作的 AI 代理。用户可以通过自然语言指令自动化复杂工作流程，降低了 AI 自动化技术的使用门槛。",
+    "highlights": [
+      "自动化复杂工作流程：支持连续工作的 AI 代理",
+      "易用性：用户友好，降低使用门槛",
+      "完整的生命周期管理：创建、部署、管理一站式"
+    ],
+    "score": 7,
+    "score_reason": "自动化领域的先驱项目，对流程自动化有实际帮助",
+    "tags": ["AI Agent", "自动化", "开源", "工作流"]
+  },
+  {
+    "title": "Ollama",
+    "url": "https://github.com/ollama/ollama",
+    "source": "github-trending",
+    "popularity": 170586,
+    "summary": "在本地运行、创建和分享大型语言模型的工具，已支持 Kimi-K2.5、GLM-5、MiniMax、DeepSeek 等最新模型。为本地 AI 应用提供了便捷的模型管理和运行环境。",
+    "highlights": [
+      "本地运行：保护隐私，无需云端即可使用 LLM",
+      "最新模型支持：已集成 Kimi-K2.5、GLM-5 等主流模型",
+      "模型分享生态：支持创建和分享自定义模型"
+    ],
+    "score": 9,
+    "score_reason": "本地 AI 部署的基础设施，推动 LLM 本地化普及",
+    "tags": ["LLM", "本地部署", "开源", "模型管理"]
+  },
+  {
+    "title": "Transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "source": "github-trending",
+    "popularity": 160192,
+    "summary": "Hugging Face 出品的模型定义框架，支持文本、视觉、音频和多模态模型的状态-of-the-art 机器学习。是当前 AI 领域最核心的基础库之一，被广泛用于研究和生产环境。",
+    "highlights": [
+      "多模态支持：覆盖文本、视觉、音频等多种模型",
+      "SOTA 实现：提供业界领先的预训练模型",
+      "庞大社区：生态丰富，模型库超过十万"
+    ],
+    "score": 9,
+    "score_reason": "行业标准库，AI 开发者必备工具，影响深远",
+    "tags": ["Hugging Face", "机器学习", "多模态", "预训练模型"]
+  },
+  {
+    "title": "LangChain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "source": "github-trending",
+    "popularity": 135654,
+    "summary": "代理工程平台，从 LLM 编排框架向智能体原生演进，支持提示词管理、链式调用和智能体构建。是构建 AI 应用的主流框架之一，提供了丰富的工具和组件。",
+    "highlights": [
+      "智能体原生：从 LLM 编排向智能体框架演进",
+      "丰富的组件：提示词管理、链式调用、智能体构建",
+      "广泛应用：已成为 AI 应用开发的事实标准"
+    ],
+    "score": 8,
+    "score_reason": "AI 应用开发的主流框架，生态成熟，文档完善",
+    "tags": ["LLM Framework", "Agent Development", "开源", "应用开发"]
+  },
+  {
+    "title": "Hermes Agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github-trending",
+    "popularity": 135490,
+    "summary": "Nous Research 出品的自我改进 AI 代理，能从经验中构建技能，跨会话保持持久记忆。代表了 AI 代理自我进化的方向，具有长期记忆和技能累积能力。",
+    "highlights": [
+      "自我改进：从经验中学习和构建新技能",
+      "持久记忆：跨会话保持上下文和记忆",
+      "技能累积：能够持续提升代理能力"
+    ],
+    "score": 7,
+    "score_reason": "自我改进方向有创新性，对研究长期记忆代理有价值",
+    "tags": ["AI Agent", "自我改进", "长期记忆", "研究"]
+  },
+  {
+    "title": "Open WebUI",
+    "url": "https://github.com/open-webui/open-webui",
+    "source": "github-trending",
+    "popularity": 135259,
+    "summary": "用户友好的 AI 界面，支持 Ollama 和 OpenAI API，提供完全离线的 AI 对话体验。为本地部署的 LLM 提供了优雅的 Web UI，适合私有化部署场景。",
+    "highlights": [
+      "完全离线：数据本地处理，保护隐私",
+      "多后端支持：兼容 Ollama 和 OpenAI API",
+      "用户友好：界面简洁美观，易于使用"
+    ],
+    "score": 7,
+    "score_reason": "本地 AI 的理想前端界面，对私有部署有实际帮助",
+    "tags": ["UI", "Ollama", "离线AI", "Web界面"]
+  },
+  {
+    "title": "Firecrawl",
+    "url": "https://github.com/mendableai/firecrawl",
+    "source": "github-trending",
+    "popularity": 114361,
+    "summary": "AI 网页抓取和搜索 API，将整个网站转换为 LLM 可用的 Markdown 或结构化数据。解决了 AI 应用的数据获取难题，是 RAG 系统的重要数据来源。",
+    "highlights": [
+      "全网站转换：整站爬取并转换为结构化数据",
+      "Markdown 输出：直接输出 LLM 友好格式",
+      "RAG 支持：为检索增强生成提供数据管道"
+    ],
+    "score": 7,
+    "score_reason": "解决 AI 数据获取痛点，对 RAG 应用有实用价值",
+    "tags": ["Web Scraping", "LLM Data", "API", "RAG"]
+  },
+  {
+    "title": "llama.cpp",
+    "url": "https://github.com/ggerganov/llama.cpp",
+    "source": "github-trending",
+    "popularity": 107500,
+    "summary": "纯 C/C++ 编写的 LLaMA 模型推理引擎，专为高性能和低资源使用而设计。是 LLM 本地推理的重要基础，支持多种硬件加速。",
+    "highlights": [
+      "高性能：纯 C/C++ 实现，推理效率高",
+      "低资源：支持 CPU 运行，资源占用低",
+      "硬件加速：支持 GPU、Metal 等多种加速方案"
+    ],
+    "score": 8,
+    "score_reason": "本地 LLM 推理的核心引擎，推动边缘 AI 部署",
+    "tags": ["推理引擎", "高性能", "C++", "边缘计算"]
+  },
+  {
+    "title": "Gemini CLI",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "source": "github-trending",
+    "popularity": 103000,
+    "summary": "Google 官方开源 AI 命令行工具，将 Gemini AI 能力直接集成到终端，支持代码理解和生成。为开发者提供了便捷的 AI 辅助编程体验。",
+    "highlights": [
+      "官方工具：Google Gemini 官方出品",
+      "终端集成：直接在命令行使用 AI 能力",
+      "代码支持：专注于代码理解和生成"
+    ],
+    "score": 7,
+    "score_reason": "Google 官方的 AI CLI 工具，对开发者有辅助价值",
+    "tags": ["CLI", "Google", "代码生成", "开发者工具"]
+  }
+]

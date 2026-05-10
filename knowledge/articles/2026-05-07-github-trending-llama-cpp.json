@@ -1,0 +1,17 @@
+{
+  "id": "90123456-7890-1234-klmn-789012345678",
+  "title": "llama.cpp",
+  "url": "https://github.com/ggerganov/llama.cpp",
+  "source": "github-trending",
+  "popularity": 107500,
+  "summary": "纯 C/C++ 编写的 LLaMA 模型推理引擎，专为高性能和低资源使用而设计。是 LLM 本地推理的重要基础，支持多种硬件加速。",
+  "highlights": [
+    "高性能：纯 C/C++ 实现，推理效率高",
+    "低资源：支持 CPU 运行，资源占用低",
+    "硬件加速：支持 GPU、Metal 等多种加速方案"
+  ],
+  "score": 8,
+  "tags": ["推理引擎", "高性能", "C++", "边缘计算"],
+  "created_at": "2026-05-07T00:00:00Z",
+  "filename": "2026-05-07-github-trending-llama-cpp.json"
+}

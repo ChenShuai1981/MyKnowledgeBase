@@ -1,0 +1,239 @@
+{
+  "source": "github-trending",
+  "skill": "tech-summary",
+  "collected_at": "2026-05-10T00:00:00",
+  "analysis_date": "2026-05-10",
+  "total_items": 15,
+  "score_distribution": {
+    "9-10": 2,
+    "7-8": 9,
+    "5-6": 4,
+    "1-4": 0
+  },
+  "trend_findings": {
+    "common_topics": [
+      {"topic": "llm", "count": 2},
+      {"topic": "agent", "count": 2},
+      {"topic": "claude", "count": 3},
+      {"topic": "claude-code", "count": 2},
+      {"topic": "ai-agents", "count": 2},
+      {"topic": "dev-tools", "count": 2},
+      {"topic": "memory", "count": 2}
+    ],
+    "new_concepts": [
+      {
+        "concept": "AI Coding Agent as Virtual Team",
+        "description": "以gstack为代表的项目将AI编程代理转变为完整的虚拟工程团队（CEO、设计师、QA等角色），标志着单人开发者效率大幅提升的时代到来。"
+      },
+      {
+        "concept": "Agent Skills System",
+        "description": "Skills框架成为AI代理的标准扩展方式，支持Claude Code、Codex、Cursor等多个平台，skills可跨平台复用。"
+      },
+      {
+        "concept": "Autonomous Research Agents",
+        "description": "以autoresearch为代表的AI代理自主运行ML研究实验，利用固定时间预算进行迭代优化，实现单人研究到AI团队研究的转变。"
+      },
+      {
+        "concept": "Long-term Memory for AI Agents",
+        "description": "Claude-mem等项目通过RAG技术为AI代理提供持久记忆能力，解决会话上下文丢失问题，是多代理协作的基础设施。"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "summary": "OpenClaw：个人AI助手，支持20+消息平台(WhatsApp/Telegram/Discord等)，多通道统一收件箱，可语音交互。",
+      "tech_highlights": [
+        "亮点1：支持20+消息平台的统一AI助手，包括WhatsApp/Telegram/Slack/Discord/iMessage/WeChat等主流渠道",
+        "亮点2：内置Voice Wake语音唤醒+Talk Mode，支持macOS/iOS/Android多端",
+        "亮点3：提供Live Canvas可视化工作区，具备多智能体路由和安全沙箱隔离能力"
+      ],
+      "score": 9,
+      "score_reason": "370K stars，44K commits，OpenAI/NVIDIA/GitHub/Vercel赞助，定义个人AI助手标准，支持多平台和多代理",
+      "tags": ["ai", "assistant", "multi-channel", "voice", "agent"]
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "summary": "Superpowers：AI代理技能框架与软件开发方法论，包含brainstorming/TDD/subagent等技能组合。",
+      "tech_highlights": [
+        "亮点1：完整的软件开发方法论，从brainstorming到finishing，覆盖全生命周期",
+        "亮点2：Subagent-driven-development子代理驱动开发模式，支持并行任务执行和两阶段审查",
+        "亮点3：支持Claude Code/Codex/OpenCode/Cursor/GitHub Copilot等10+AI编码工具"
+      ],
+      "score": 8,
+      "score_reason": "184K stars，440 commits，定义AI编程代理的开发流程标准，TDD+技能系统是该领域最佳实践",
+      "tags": ["agent", "skills", "dev-tools", "workflow", "tdd"]
+    },
+    {
+      "name": "affaan-m/everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "summary": "everything-claude-code：Claude Code性能优化系统，包含Skills/Instincts/Memory/Security功能。",
+      "tech_highlights": [
+        "亮点1：Agent harness性能优化系统，针对Claude Code/Codex/OpenCode/Cursor等工具",
+        "亮点2：集成MCP支持，实现Research-first开发方法论",
+        "亮点3：涵盖skills、instincts、memory、security等多维度优化"
+      ],
+      "score": 7,
+      "score_reason": "177K stars，针对Claude Code生态的性能优化工具集成，AI-agents和LLM领域覆盖",
+      "tags": ["ai-agents", "anthropic", "claude", "llm", "mcp"]
+    },
+    {
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "summary": "OpenCode：开源AI编程代理，100%开源，Provider无关，支持Claude/OpenAI/Google/本地模型。",
+      "tech_highlights": [
+        "亮点1：100%开源，不绑定任何模型提供商，支持Claude/OpenAI/Google/本地模型",
+        "亮点2：内置LSP支持和client-server架构，支持远程控制和移动端操作",
+        "亮点3：12K commits，795 releases，TUI优先设计，TypeScript 63.2% + MDX 33.8%技术栈"
+      ],
+      "score": 9,
+      "score_reason": "158K stars，TypeScript开源编程代理标杆，多语言支持和架构设计优秀，对标Claude Code",
+      "tags": ["ai", "agent", "open-source", "dev-tools", "coding"]
+    },
+    {
+      "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "summary": "System-prompts：收录30+AI工具完整System Prompts (Cursor/Devin/Trae/Windsurf等)，开源可查。",
+      "tech_highlights": [
+        "亮点1：收录Augment Code/Claude Code/Cursor/Devin/Lovable等30+AI工具的完整System Prompts",
+        "亮点2：按工具分类组织（Cursor Prompts/Trae/Windsurf等），支持系统提示工程研究",
+        "亮点3：34K forks，137K stars，涵盖bolta/cursorai/windsurf-ai/trae/trae-ai等18个AI相关topic"
+      ],
+      "score": 8,
+      "score_reason": "137K stars，30+工具的系统提示集合，对理解AI编程工具内部工作原理有重要参考价值",
+      "tags": ["ai", "system-prompts", "prompt-engineering", "cursor", "trae"]
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "summary": "Anthropic Skills：Anthropic官方的Agent Skills公开仓库，包含文档/创意/开发技能示例。",
+      "tech_highlights": [
+        "亮点1：Anthropic官方Agent Skills仓库，定义技能系统规范（agentskills.io）",
+        "亮点2：包含docx/pdf/pptx/xlsx等文档处理技能源代码，为生产级AI应用参考",
+        "亮点3：Skills通过YAML frontmatter定义name和description，Claude动态加载执行"
+      ],
+      "score": 8,
+      "score_reason": "131K stars，Anthropic官方技能库，定义Agent Skills标准，推动技能生态发展",
+      "tags": ["agent-skills", "anthropic", "claude", "skills", "developer-tools"]
+    },
+    {
+      "name": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "summary": "Karpathy-skills：基于Karpathy LLM编程缺陷观察的4条原则CLAUDE.md规则。",
+      "tech_highlights": [
+        "亮点1：基于Andrej Karpathy的AI编程pitfalls观察，提出4条核心原则（Think Before Coding/Simplicity First/Surgical Changes/Goal-Driven）",
+        "亮点2：解决LLM错误假设/过度复杂化/正交编辑/命令式而非声明式等问题",
+        "亮点3：支持Claude Code插件和CLAUDE.md per-project两种安装方式，以及Cursor Rules"
+      ],
+      "score": 8,
+      "score_reason": "122K stars，Karpathy影响力背书，4原则提升AI编程质量，是Claude Code用户必读指南",
+      "tags": ["claude", "guidelines", "best-practices", "ai-coding", "prompt"]
+    },
+    {
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "summary": "Claude Code：Anthropic官方编程代理，终端AI工具，理解代码库，自动化任务和Git工作流。",
+      "tech_highlights": [
+        "亮点1：Anthropic官方agentic编码工具，终端运行，理解代码库结构",
+        "亮点2：支持通过自然语言执行日常任务、解释复杂代码、处理Git工作流",
+        "亮点3：620 commits，5K+ issues，Shell 47.1%+Python 29.2%+TypeScript 17.7%技术栈"
+      ],
+      "score": 8,
+      "score_reason": "122K stars，Anthropic官方产品，定义AI编程代理体验标准，与官方Skills仓库协同",
+      "tags": ["claude-code", "agent", "coding", "anthropic", "dev-tools"]
+    },
+    {
+      "name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "summary": "Agency-agents：完整AI代理团队，包含Frontend/Backend/AI Engineer等专业化角色。",
+      "tech_highlights": [
+        "亮点1：涵盖Engineering/Marketing/Sales/Design等12个领域的AI代理角色库",
+        "亮点2：Engineering领域16个角色（Frontend/Backend/Mobile/AI/DevOps/Security等），Marketing 20+角色",
+        "亮点3：支持Claude Code/GitHub Copilot/OpenCode等10+工具，自动安装脚本"
+      ],
+      "score": 7,
+      "score_reason": "95K stars，291 commits，丰富的专业化AI代理角色库，适合构建AI团队工作流",
+      "tags": ["ai-agents", "team", "specialized", "workflow", "productivity"]
+    },
+    {
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "summary": "Spec-kit：Spec-Driven Development工具包，将规格说明变为可执行规范，直接生成实现代码。",
+      "tech_highlights": [
+        "亮点1：Spec-Driven Development方法论，规格说明直接生成可执行代码，而非仅指导",
+        "亮点2：提供/speckit.constitution、/speckit.specify、/speckit.plan、/speckit.tasks、/speckit.implement命令",
+        "亮点3：支持30+AI编程工具，931 commits，70+社区扩展，Python 100%"
+      ],
+      "score": 8,
+      "score_reason": "94K stars，GitHub官方工具，将spec变成可执行交付物，提升AI开发质量",
+      "tags": ["spec-driven", "dev-tools", "specification", "sdd", "github"]
+    },
+    {
+      "name": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "summary": "Gstack：Garry Tan的Claude Code配置，包含23个专家角色(Ceo/Designer/QA等)和8个Power工具。",
+      "tech_highlights": [
+        "亮点1：23个专家角色分工（Office Hours/CEO Review/Design/Review/QA/Ship等）+8个Power工具",
+        "亮点2：Garry Tan实测效率提升810倍(2013→2026)，1人=20人团队生产力",
+        "亮点3：支持10+AI编码工具，实时浏览器模式，MCP支持，内置安全护栏(careful/freeze/guard)"
+      ],
+      "score": 8,
+      "score_reason": "92K stars，268 commits，YC CEO亲自验证的生产力工具，AI团队角色分工最佳实践",
+      "tags": ["productivity", "ai-team", "claude-code", "workflow", "dev-tools"]
+    },
+    {
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "summary": "Codex CLI：OpenAI轻量级编程代理，终端运行，支持VS Code/Cursor/Windsurf IDE集成。",
+      "tech_highlights": [
+        "亮点1：OpenAI官方轻量级编程代理，Rust 96.3%高性能实现",
+        "亮点2：支持CLI和IDE插件（VS Code/Cursor/Windsurf），与ChatGPT Plus/Pro订阅集成",
+        "亮点3：6.3K commits，780 releases，Apache-2.0开源，持续迭代中"
+      ],
+      "score": 8,
+      "score_reason": "81K stars，Rust实现高性能，OpenAI官方产品，与ChatGPT深度集成",
+      "tags": ["codex", "openai", "coding-agent", "rust", "dev-tools"]
+    },
+    {
+      "name": "karpathy/autoresearch",
+      "url": "https://github.com/karpathy/autoresearch",
+      "summary": "Autoresearch：AI代理在单GPU上自动运行nanochat训练实验，5分钟固定时间预算迭代优化。",
+      "tech_highlights": [
+        "亮点1：AI代理自主运行LLM训练实验，固定5分钟时间预算，每小时约12次实验",
+        "亮点2：单文件train.py可编辑（模型/优化器/超参数），program.md定义研究指令",
+        "亮点3：val_bpb指标评估，支持MacOS/Windows/AMD多平台分支，11.7K forks"
+      ],
+      "score": 7,
+      "score_reason": "80K stars，Karpathy最新实验项目，探索AI代理自主研究范式，有学术价值",
+      "tags": ["autonomous-research", "llm", "training", "karpathy", "agent"]
+    },
+    {
+      "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "summary": "UI-UX Pro Max：AI设计技能，67种UI风格/161个行业规则/57种字体组合，生成完整设计系统。",
+      "tech_highlights": [
+        "亮点1：v2.0智能设计系统生成器，输入产品描述输出Pattern+Style+Colors+Typography",
+        "亮点2：67种UI风格(Glassmorphism/Neumorphism/Brutalism等)+161行业推理规则+57字体组合",
+        "亮点3：支持15种技术栈(React/Next.js/Vue/SwiftUI等)，CLI自动化安装(uipro-cli)"
+      ],
+      "score": 7,
+      "score_reason": "76K stars，134 commits，AI设计智能化工具，提升UI开发效率和质量",
+      "tags": ["ui-design", "ai-skills", "tailwindcss", "react", "design-system"]
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "summary": "Claude-mem：Claude Code持久记忆插件，自动捕获会话压缩AI摘要，跨会话注入相关上下文。",
+      "tech_highlights": [
+        "亮点1：5个生命周期钩子(SessionStart/UserPromptSubmit/PostToolUse/Stop/SessionEnd)自动记忆捕获",
+        "亮点2：3层搜索工作流(search→timeline→get_observations)，节省~10x tokens",
+        "亮点3：SQLite存储+Chroma向量数据库，支持Claude Code/Gemini CLI/OpenCode多平台"
+      ],
+      "score": 8,
+      "score_reason": "74K stars，1.8K commits，267 releases，RAG持久记忆解决AI代理上下文丢失问题",
+      "tags": ["memory", "rag", "claude", "long-term-memory", "ai-agents"]
+    }
+  ]
+}
