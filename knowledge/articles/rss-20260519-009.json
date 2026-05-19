@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260519-009",
+  "title": "SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.15215",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-19T00:46:45.015040+00:00",
+  "collected_at": "2026-05-19T00:46:45.015040+00:00",
+  "summary": "SkillSmith 提出了一种将智能体技能编译为边界引导运行时接口的方法，旨在提升技能调用的准确性和效率。该技术通过定义清晰的边界条件，使智能体在运行时能够更可靠地选择和执行技能，从而增强复杂任务中的表现。",
+  "score": 7,
+  "tags": [
+    "agent",
+    "tool-use"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-19T00:47:45.182594+00:00"
+}

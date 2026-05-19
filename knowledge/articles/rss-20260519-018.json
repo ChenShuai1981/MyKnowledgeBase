@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260519-018",
+  "title": "Context Pruning for Coding Agents via Multi-Rubric Latent Reasoning",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.15315",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-19T00:46:45.015091+00:00",
+  "collected_at": "2026-05-19T00:46:45.015091+00:00",
+  "summary": "该研究提出了一种通过多标准潜在推理进行上下文剪枝的方法，旨在优化编码代理的上下文使用效率。核心价值在于减少冗余上下文，提升编码代理在复杂任务中的性能和响应速度。",
+  "score": 7,
+  "tags": [
+    "agent",
+    "code-generation",
+    "reasoning"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-19T00:47:45.182626+00:00"
+}

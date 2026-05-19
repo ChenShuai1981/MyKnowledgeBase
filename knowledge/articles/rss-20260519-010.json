@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260519-010",
+  "title": "Fair outputs, Biased Internals: Causal Potency and Asymmetry of Latent Bias in LLMs for High-Stakes Decisions",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.15217",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-19T00:46:45.015045+00:00",
+  "collected_at": "2026-05-19T00:46:45.015045+00:00",
+  "summary": "该论文研究了大型语言模型在高风险决策中，即使输出表面公平，其内部潜在偏见仍存在不对称因果效力的问题。通过因果分析，揭示了模型内部偏见对决策结果的潜在影响，为AI公平性评估提供了新视角。",
+  "score": 7,
+  "tags": [
+    "llm",
+    "evaluation",
+    "reasoning"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-19T00:47:45.182597+00:00"
+}

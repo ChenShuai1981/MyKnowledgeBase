@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260519-003",
+  "title": "AI is a technology not a product",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-05-19T00:46:43.776587+00:00",
+  "collected_at": "2026-05-19T00:46:43.776587+00:00",
+  "summary": "该内容强调AI应被视为一种基础技术而非独立产品，其价值在于与其他系统集成。核心观点是AI需要嵌入到具体应用场景中才能发挥效用。",
+  "score": 7,
+  "tags": [
+    "llm",
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-19T00:47:45.182575+00:00"
+}

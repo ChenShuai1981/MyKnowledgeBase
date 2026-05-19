@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260519-008",
+  "title": "Does Theory of Mind Improvement Really Benefit Human-AI Interactions? Empirical Findings from Interactive Evaluations",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.15205",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-19T00:46:45.015034+00:00",
+  "collected_at": "2026-05-19T00:46:45.015034+00:00",
+  "summary": "该研究通过交互式评估实证检验了心智理论（ToM）改进是否真正有益于人机交互。结果表明，提升AI的ToM能力可以改善用户体验和任务效率，但效果受限于具体交互场景和任务类型。研究为设计更自然的人机协作系统提供了重要参考。",
+  "score": 7,
+  "tags": [
+    "evaluation",
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-19T00:47:45.182591+00:00"
+}

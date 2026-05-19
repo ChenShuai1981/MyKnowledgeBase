@@ -1,0 +1,18 @@
+{
+  "id": "github-20260519-001",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "author": "NousResearch",
+  "published_at": "2026-05-19T00:10:49Z",
+  "collected_at": "2026-05-19T00:46:43.066702+00:00",
+  "summary": "NousResearch 的 hermes-agent 项目是一个可随用户成长而演进的智能体框架，旨在提供灵活且可扩展的 AI 代理解决方案。其核心价值在于通过模块化设计支持个性化定制和持续优化，适合需要长期协作的 AI 应用场景。",
+  "score": 7,
+  "tags": [
+    "agent",
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-19T00:47:45.182463+00:00"
+}
