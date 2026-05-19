@@ -1,8 +1,0 @@
-{
-  "id": "test-20260510-001",
-  "title": "LangGraph",
-  "source_url": "https://github.com/langchain-ai/langgraph",
-  "summary": "LangGraph 是用于构建多代理系统的编排框架，支持循环工作流和状态管理。",
-  "tags": ["LLM", "Agent"],
-  "status": "draft"
-}
