@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260520-018",
+  "title": "Hallucination as Exploit: Evidence-Carrying Multimodal Agents",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.19192",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-20T10:54:49.805152+00:00",
+  "collected_at": "2026-05-20T10:54:49.805152+00:00",
+  "summary": "该论文提出了一种利用多模态AI系统中的幻觉作为攻击手段的方法，通过构造携带恶意证据的输入来诱导模型产生错误输出。这项工作揭示了多模态AI的安全漏洞，并强调了在部署前进行严格安全评估的重要性。",
+  "score": 8,
+  "tags": [
+    "security",
+    "multi-agent",
+    "vision"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-20T10:55:55.199214+00:00"
+}

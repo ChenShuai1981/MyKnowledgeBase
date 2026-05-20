@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260520-015",
+  "title": "Progressive Autonomy as Preference Learning: A Formalization of Trust Calibration for Agentic Tool Use",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.19151",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-20T10:54:49.805138+00:00",
+  "collected_at": "2026-05-20T10:54:49.805138+00:00",
+  "summary": "该论文提出将渐进式自主性视为偏好学习问题，为智能体工具使用中的信任校准提供形式化框架。核心价值在于通过数学建模，使AI系统能根据任务复杂度动态调整自主程度，从而提升人机协作的可靠性与效率。",
+  "score": 8,
+  "tags": [
+    "agent",
+    "tool-use",
+    "reasoning"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-20T10:55:55.199205+00:00"
+}

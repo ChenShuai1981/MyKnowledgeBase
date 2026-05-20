@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260520-005",
+  "title": "Evaluating the Utility of Personal Health Records in Personalized Health AI",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.18937",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-20T10:54:49.805086+00:00",
+  "collected_at": "2026-05-20T10:54:49.805086+00:00",
+  "summary": "该论文评估了个人健康记录（PHR）在个性化健康AI中的实用性，探讨了如何利用PHR数据来增强AI模型的个性化推荐和健康管理能力。研究通过实验验证了PHR数据在提升AI健康建议准确性和相关性方面的价值，为未来个性化健康AI系统设计提供了重要参考。",
+  "score": 7,
+  "tags": [
+    "evaluation",
+    "rag"
+  ],
+  "audience": "intermediate",
+  "status": "review",
+  "updated_at": "2026-05-20T10:55:55.199163+00:00"
+}

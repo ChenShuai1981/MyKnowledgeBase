@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260520-017",
+  "title": "Discoverable Agent Knowledge -- A Formal Framework for Agentic KG Affordances (Extended Version)",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.19186",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-20T10:54:49.805147+00:00",
+  "collected_at": "2026-05-20T10:54:49.805147+00:00",
+  "summary": "该论文提出了一个形式化框架，用于定义和发现智能体在知识图谱中的可操作能力（affordances），从而增强智能体对知识图谱的自主利用。核心价值在于为构建更智能、更自主的智能体知识图谱系统提供了理论基础和设计指南。",
+  "score": 7,
+  "tags": [
+    "agent",
+    "reasoning"
+  ],
+  "audience": "advanced",
+  "status": "review",
+  "updated_at": "2026-05-20T10:55:55.199211+00:00"
+}
