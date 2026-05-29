@@ -68,6 +68,12 @@ class KBState(TypedDict):
     无论 review_passed 是否为 True。
     """
 
+    needs_human_review: bool
+    """
+    新增：HumanFlag 节点设为 True
+    循环必须有出口。超过 max_iterations 还没通过，说明问题不在“质量”而在“数据”，需要人工判断。
+    HumanFlag 节点把问题条目写到独立目录，不污染主知识库。
+    """
     # ── 成本追踪 ────────────────────────────────────────────────────────────
 
     cost_tracker: dict
