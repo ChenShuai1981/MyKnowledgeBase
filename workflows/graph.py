@@ -19,25 +19,28 @@ if _project_root not in sys.path:
 
 from langgraph.graph import END, StateGraph
 
+from workflows.analyzer import analyze_node
+from workflows.collector import collect_node
 from workflows.human_flag import human_flag_node
-from workflows.nodes import (
-    analyze_node,
-    collect_node,
-    organize_node,
-    save_node,
-)
-from workflows.reviser import revise_node
+from workflows.organizer import organize_node
+from workflows.planner import planner_node
+from workflows.nodes import save_node
 from workflows.reviewer import review_node
+from workflows.reviser import revise_node
 from workflows.state import KBState
 
 logger = logging.getLogger(__name__)
 
 
 def route_after_review(state: KBState) -> str:
-    """三路条件路由器。"""
+    """条件路由：读 state["plan"]["max_iterations"]，不再硬编码 3"""
+    plan = state.get("plan", {}) or {}
+    max_iter = int(plan.get("max_iterations", 3))
+    iteration = state.get("iteration", 0)
+
     if state.get("review_passed"):
         return "organize"
-    if state.get("iteration", 0) >= 3:
+    if iteration >= max_iter:
         return "human_flag"
     return "revise"
 
@@ -54,6 +57,7 @@ def build_graph() -> StateGraph:
     graph = StateGraph(KBState)
 
     # ── 注册节点 ──
+    graph.add_node("plan", planner_node)
     graph.add_node("collect", collect_node)
     graph.add_node("analyze", analyze_node)
     graph.add_node("organize", organize_node)
@@ -63,6 +67,7 @@ def build_graph() -> StateGraph:
     graph.add_node("save", save_node)
 
     # ── 线性边 ──
+    graph.add_edge("plan", "collect")
     graph.add_edge("collect", "analyze")
     graph.add_edge("analyze", "organize")
     graph.add_edge("revise", "review")
@@ -90,7 +95,7 @@ def build_graph() -> StateGraph:
     graph.add_edge("save", END)
 
     # ── 入口 ──
-    graph.set_entry_point("collect")
+    graph.set_entry_point("plan")
 
     return graph.compile()
 
