@@ -10,7 +10,11 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from workflows.model_client import accumulate_usage, chat_json
+from workflows.model_client import (
+    BudgetExceededError,
+    accumulate_usage,
+    chat_json,
+)
 from workflows.state import KBState
 
 logger = logging.getLogger(__name__)
@@ -73,7 +77,9 @@ def revise_node(state: KBState) -> dict[str, Any]:
             score=item.get("score", 0.5),
         )
         try:
-            result, usage = chat_json(prompt, system=REVISE_SYSTEM, temperature=0.4)
+            result, usage = chat_json(prompt, system=REVISE_SYSTEM, temperature=0.4, node_name="reviser")
+        except BudgetExceededError:
+            raise
         except Exception:
             logger.warning("LLM 调用异常，保留原条目: %s", item.get("id", ""))
             result, usage = {}, {}

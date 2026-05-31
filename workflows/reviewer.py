@@ -9,7 +9,11 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from workflows.model_client import accumulate_usage, chat_json
+from workflows.model_client import (
+    BudgetExceededError,
+    accumulate_usage,
+    chat_json,
+)
 from workflows.state import KBState
 
 logger = logging.getLogger(__name__)
@@ -53,21 +57,24 @@ Only return valid JSON. No extra text."""
 
 REVIEW_SYSTEM = "You are a strict quality reviewer. Rate each dimension 1-10 and return only JSON."
 
+REVIEWER_PASS_THRESHOLD = 7.0
 
 def review_node(state: KBState) -> dict[str, Any]:
-    """审核 analyses，5 维度加权评分 >= 7.0 通过。
+    """审核 analyses，5 维度加权评分 >= REVIEWER_PASS_THRESHOLD 通过。
 
     Returns:
         {review_passed, review_feedback, iteration, cost_tracker}
     """
     analyses = state.get("analyses", [])
     iteration = state.get("iteration", 0)
+    plan = state.get("plan", {}) or {}
+    max_iterations = int(plan.get("max_iterations", 3))
     print(f"[ReviewNode] 审核 {len(analyses)} 条 analyses (iteration={iteration})...")
 
     tracker = dict(state.get("cost_tracker", {}))
 
-    # 最多 3 轮，第 3 轮（iteration >= 2）强制通过
-    if iteration >= 2:
+    # 超过 max_iterations 则强制通过
+    if iteration >= max_iterations - 1:
         print("[ReviewNode] iteration >= 2，强制通过")
         return {
             "review_passed": True,
@@ -98,7 +105,9 @@ def review_node(state: KBState) -> dict[str, Any]:
             score=item.get("score", 0),
         )
         try:
-            result, usage = chat_json(prompt, system=REVIEW_SYSTEM, temperature=0.1)
+            result, usage = chat_json(prompt, system=REVIEW_SYSTEM, temperature=0.1, node_name="reviewer")
+        except BudgetExceededError:
+            raise
         except Exception:
             logger.warning("LLM 调用异常，跳过审核: %s", item.get("id", ""))
             result, usage = {}, {}
@@ -123,7 +132,7 @@ def review_node(state: KBState) -> dict[str, Any]:
             all_feedback.append(f"[{title_short}] {fb}")
 
     avg_weighted = total_weighted / reviewed_count if reviewed_count > 0 else 10.0
-    passed = avg_weighted >= 7.0
+    passed = avg_weighted >= REVIEWER_PASS_THRESHOLD
 
     print(
         f"[ReviewNode] 实际评分 {reviewed_count} 条，"
